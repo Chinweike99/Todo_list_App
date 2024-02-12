@@ -132,9 +132,10 @@ ul li span:hover{
         width: 70px;
         color: #fff;
         font-size: 15px;
+    }
     .todo{
         background: #fff;
-        width: 70%;
+        width: 100%;
         padding: 20px 10px 10px 40px;
         margin: 0 auto;
         border: none;
