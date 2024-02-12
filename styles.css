@@ -124,20 +124,32 @@ ul li span:hover{
 @media only screen and (max-width: 600px){
     .todo{
         background: #fff;
-        width: 80%;
-        max-width: 490px;
+        width: 100%;
+        max-width: 380px;
         padding: 20px 10px 10px 40px;
         margin: 0 auto;
         border: none;
         border-radius: 18px;
         position: relative;
-        padding-bottom: 30px;
+        padding-bottom: 28px;
+    }
+    .todo h5{
+        display: flex;
+        font-size: 20px;
+        margin-bottom: 19px;
+        align-items: center;
+        
+    }
+    .todo h5 img{
+        height: 28px;
+        position: relative;
+        margin-left: 8px;
     }
     .todo .BtnInput{
         display: flex;
         background: rgb(221, 210, 210);
         align-items: center;
-        width: 70%;
+        width: 90%;
         height: 38px;
         border-radius: 19px;
         margin-bottom: 20px;
