@@ -5,7 +5,7 @@ const clickBtn = document.getElementById("clickBtn");
 
 function addTask(){
     if (inputBox.value === ''){
-        alert("You cannot add empty task");
+        alert("You cannot add empty task ..");
     }
     else{
         let list = document.createElement("li");
