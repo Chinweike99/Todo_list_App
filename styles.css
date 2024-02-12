@@ -148,6 +148,16 @@ ul li span:hover{
     .todo ul li{
         font-size: 18px;
     }
+    .todo .BtnInput{
+        display: flex;
+        background: rgb(221, 210, 210);
+        align-items: center;
+        width: 93%;
+        height: 38px;
+        border-radius: 19px;
+        margin-bottom: 20px;
+        margin-top: 12px;
+    }
     .todo .BtnInput input{
         flex: 1;
         font-size: 16px;
